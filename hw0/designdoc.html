@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+  Game0: Eat and Run - bebert Design
+</title>
+</head>
+<body>
+
+<h1>Eat and Run - bebert design</h1>
+
+<p>
+  "Eat and Run" is a typical single screen 2D side scroller with the added ability to eat as you run. The player is a rectangle on the left side of the screen. The vertical position of this rectangle is controlled by the mouse. This is used to collect food.
+</p>
+
+<div style="text-align:center">
+<img src="title_photo.png" width="320" height="240" />
+</div>
+
+<h2>Gameplay</h2>
+<p>
+  The main objective is for the player to "eat" any object that they encounter. The player can move the character vertically, and should attempt to match the horizontal position of any object they plan to eat.
+</p>
+<div style = "text-align:center">
+  <img src = "h1_photo.png" width = "320" height = "240" />
+  <img src = "h2_photo.png" width = "320" height = "240" />
+</div>
+<p>
+  Food is always a rectangle smaller than the player. The player will also encounter circles.
+</p>
+<div style = "text-align:center">
+  <img src = "h6_photo.png" width = "320" height = "240" />
+</div>
+<p>
+  If the player eats or collides with the circles, it will count as a penalty. Once the player hits 3 circles, or misses 3 squares, the game is over.
+  The circles and rectangles the player can eat are distinguishable, even at a fast pace. Circles will always be a shade of red.
+</p>
+
+<h3>Advancement</h3>
+<p>
+  The game is a never ending loop. However, the difficulty of the game will increase as the player eats more. At the beginnning of the game, the ground will act as a barrier, and the player will be unable to move below this. As the game progresses, the ground will decrease, leaving the player more vertical room.
+</p>
+<div style = "text-align:center">
+  <img src = "h3_photo.png" width = "320" height = "240" />
+  <img src = "h4_photo.png" width = "320" height = "240" />
+  <img src = "h5_photo.png" width = "320" height = "240" />
+</div>
+<p>
+  Another added difficulty is that as the game advances, both rectagles and circles will move horizontally quicker in the air. 
+</p>
+<div style = "text-align:center">
+  <img src = "h7_photo.png" width = "320" height = "240" />
+</div>
+
+<h4>Penalties</h4>
+<p>
+  If the player successfully eats a rectangle, it is a point added to their score. If the player misses a rectangle, it is a point deducted from their score. If the player eats a circle, the number of points deducted from their score is proportional the their advancement in the game.
+</p>
+
+</body>
+</html>
