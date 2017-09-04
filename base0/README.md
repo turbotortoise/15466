@@ -20,8 +20,9 @@ On Linux or OSX these requirements should be available from your package manager
 
 
 ### Building through Windows
- - Build through Developer Command Prompt for Virtual Studio
+ - Download kit-libs-win and place inside base0 folder
  - Find directory containing main.exe
+ - Build through Developer Command Prompt for Virtual Studio
 ```
   nmake -f Makefile.win
  ```
